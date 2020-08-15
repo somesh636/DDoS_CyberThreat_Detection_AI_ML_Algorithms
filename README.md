@@ -25,10 +25,7 @@ with different Artificial Intelligence and Machine Learning (AI and ML) algo-
 rithms to effectively detect the different types of DDoS threats by converting
 the problem to a multilabel classification problem.
 
-* The code for this Project can be found at the GitLab Link as below: 
-[Project Code](https://git.uwaterloo.ca/sk2gupta/ece_659_project) 
+* The Dataset used for this project is [CICDDoS2019](https://www.unb.ca/cic/datasets/ddos-2019.html) Dataset: 
 
-* The Dataset used for this project is as below: 
-[CICDDoS2019](https://www.unb.ca/cic/datasets/ddos-2019.html) Dataset: 
 CICDDoS2019 contains benign and the most up-to-date common DDoS attacks, which resembles the true real-world data (PCAPs). It also includes the results of the network traffic analysis using CICFlowMeter-V3 with labeled flows based on the time stamp, source, and destination IPs, source and destination ports, protocols and attack (CSV files). Generating realistic background traffic was our top priority in building this dataset. We have used our proposed B-Profile system (Sharafaldin, et al. 2016) to profile the abstract behavior of human interactions and generates naturalistic benign background traffic in the proposed testbed (Figure 2). For this dataset, we built the abstract behaviour of 25 users based on the HTTP, HTTPS, FTP, SSH, and email protocols.
 
